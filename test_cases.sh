@@ -32,3 +32,4 @@ ffuf -w ./directory_list -u https://speak2me.ml/about/FUZZ -mc 200
 ffuf -w ./directory_list -u https://speak2me.ml/faq/FUZZ -mc 200
 
 python3 /home/lowerx/Desktop/SADProject/PwnXSS/pwnxss.py -u https://speak2me.ml/
+#python3 ${path_to_pwnxss.py} -u https://speak2me.ml
